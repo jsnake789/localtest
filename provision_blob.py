@@ -22,7 +22,7 @@ resource_client = ResourceManagementClient(credential, subscription_id)
 RESOURCE_GROUP_NAME = "DataScience"
 LOCATION = "uksouth"
 
-#Step 1: Provision the resource group
+#Step 1: Provision the resource group (already exists so not needed)
 # rg_result = resource_client.resource_groups.create_or_update(RESOURCE_GROUP_NAME, {"location": LOCATION })
 
 # print(f"Provisioned resource group {rg_result.name}")

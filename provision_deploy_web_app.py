@@ -23,7 +23,7 @@ LOCATION = 'uksouth'
 #Step 2: Provision the App Service plan, which defines the underlying VM for the web app
 SERVICE_PLAN_NAME = 'PythonAzureExample-WebApp-plan'
 WEB_APP_NAME = os.environ.get("WEB_APP_NAME", f"PythonAzureExample-WebApp-{random.randint(1,100000):05}")
-# WEB_APP_NAME = 'PythonAzureExample-WebApp-52961'
+# WEB_APP_NAME = 'PythonAzureExample-WebApp-33422'
 
 #obtain client object
 app_service_client = WebSiteManagementClient(credential, subscription_id)
